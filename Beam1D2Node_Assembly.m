@@ -1,5 +1,4 @@
 function [z] = Beam1D2Node_Assembly(KK,k,i,j)
-    %总体刚度矩阵求解
     DOF(1)=2*i-1;
     DOF(2)=2*i;
     DOF(3)=2*j-1;
