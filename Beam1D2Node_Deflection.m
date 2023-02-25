@@ -1,5 +1,4 @@
 function [v] = Beam1D2Node_Deflection(x,L,u)
-    %º∆À„ƒ”∂»
     e = x/L;
     N1 = 1-3*e*e+2*e*e*e;
     N2 = L(e-2*e*e+e*e*e);
